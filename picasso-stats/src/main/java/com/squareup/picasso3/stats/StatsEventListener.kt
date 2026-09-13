@@ -28,7 +28,7 @@ class StatsEventListener : EventListener {
   private var maxCacheSize = 0
   private var cacheSize = 0
 
-  private var cacheHits = 0L
+  private var cacheHits = 99990L
   private var cacheMisses = 0L
   private var totalDownloadSize = 0L
   private var totalOriginalBitmapSize = 0L
